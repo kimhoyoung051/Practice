@@ -65,9 +65,9 @@
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/aa985d92-13b5-456b-9235-d554edadef0f width="800" height="200" <br/>
 
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
-<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1d3d4398-7cad-4d8f-8e4d-c4eefe0f2df3 width="800" height="400"> <br/><br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1d3d4398-7cad-4d8f-8e4d-c4eefe0f2df3 width="800" height="400"> <br/><br/><br/>
 
-### 1. ResNet 50
+### 2. ResNet 50
 #### (1) Loss and Accuracy
 * **Train and Valdiation Accuracy**
 <p align="left">
@@ -126,18 +126,18 @@
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/da90916e-5c34-4f16-9397-81840e63f0d0" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/47bfafc8-0660-4673-969a-580d810a2b30" width="32%">
-</p>
+</p> <br/>
 * Prediction: CNV <br/>
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e2dc62f4-7f76-4e69-8621-f39f97830f3b" width="32%">
-</p>
+</p> <br/>
 * Prediction: Drusen <br/>
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bf592ac8-7721-4f5e-a652-18760a2d6bd3" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/c927a1aa-b870-45f9-992d-8a363caae133" width="32%">
-</p>
+</p> <br/>
 * Prediction: DME <br/>
-<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/202407df-9240-4a6d-a17c-e3569e6dfd11 width="500" height="500">
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/202407df-9240-4a6d-a17c-e3569e6dfd11 width="500" height="500"> <br/>
 * Failed to predict DME <br/>
-<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b width="500" height="500"> <br/><br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b width="500" height="500"> <br/><br/><br/>
