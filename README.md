@@ -119,7 +119,7 @@
 * Prediction: Drusen <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e9b48f99-d0a4-4ea6-86d2-89443b58db8c width="800" height="200"> <br/>
 * Prediction: CNV <br/>
-<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/27bd439d-bf16-448a-8b17-ee92d92a631e width="800" height="200" <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/27bd439d-bf16-448a-8b17-ee92d92a631e width="800" height="200"> <br/>
 
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
 <p align="left">
