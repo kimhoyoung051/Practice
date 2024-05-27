@@ -58,10 +58,90 @@
 
 #### (5) Grad-CAM
 ##### 1) Grad-CAM by Layers
+* Prediction: CNV
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/cd82184b-567d-47f8-8877-5f0f1f6593fe width="600" height="150"> <br/>
 ##### 2) Grad-CAM + Guided-Backpropagation + Guided Grad-CAM
+* Prediction: CNV
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/887f9843-8ebe-4083-878f-bfd81026f5bf width="800" height="200">
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/aa985d92-13b5-456b-9235-d554edadef0f width="800" height="200" <br/>
 
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1d3d4398-7cad-4d8f-8e4d-c4eefe0f2df3 width="800" height="400"> <br/><br/>
+
+### 1. ResNet 50
+#### (1) Loss and Accuracy
+* **Train and Valdiation Accuracy**
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/6084a454-6aeb-4172-bb7f-cb8e08d5776d" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/d0a716ab-c8ce-4b10-a9d5-b10ac638dd20" width="32%">
+</p>
+<br/>
+
+* **Train and Valdiation Loss**
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/d32e4f62-885d-498c-b438-5e41d2ffe422" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bb5cd4d1-8102-441d-97e5-72625db8fec7" width="32%">
+</p>
+<br/>
+
+#### (2) Sensitivity and Specificity
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/482d9c48-4517-4d5d-bb19-b39a015762c5 width="400" height="200"><br/>
+
+#### (3) ROC Curve
+##### 1) One vs. Rest multiclass
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/c6d5b368-9a7b-494e-bd03-c54449ce8432 width="300" height="300"><br/>
+##### 2) One vs. One
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bde8fc17-cfcc-4159-8e9c-a552f9416556" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/f9b48609-e297-4731-9f68-650c6ab65dfa" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/a7593a14-035f-43e2-bd2c-4fa4885a509f" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/fbb5a296-1464-47db-9e91-0d5deff9e32a" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7e89e29c-a4bb-4324-b160-60c3f5926c54" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/fcd421df-fa3b-4d24-8139-bdf097d165ff" width="15%">
+</p>
+<br/>
+
+#### (4) Predictions
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/45f3249a-363c-453b-92e6-5ebdd1c9f15c width="300" height="300"><br/>
+
+#### (5) Grad-CAM
+##### 1) Grad-CAM by Layers
+* Prediction: Normal
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/76483001-5c9d-4b36-9c9d-b6b1eff3d3c9 width="600" height="150"> <br/>
+* Prediction: CNV
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7cbe9243-98f1-4e5a-8c26-480544f52788 width="600" height="150"> <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/77c80ae2-a92f-4b3c-a131-ba4f67bafc61 width="600" height="150"> <br/>
+* Prediction: Drusen
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e4764c48-d56d-4187-aaad-00dca493f6dc width="600" height="150"> <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/9eca0f4d-2c19-437d-9991-8edc7528c0aa width="600" height="150"> <br/>
+* Prediction: DME
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/66150da8-fe31-430e-8eb8-1755306e339d width="600" height="150"> <br/>
+##### 2) Grad-CAM + Guided-Backpropagation + Guided Grad-CAM
+* Prediction: Drusen
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e9b48f99-d0a4-4ea6-86d2-89443b58db8c width="800" height="200">
+* Prediction: CNV
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/27bd439d-bf16-448a-8b17-ee92d92a631e width="800" height="200" <br/>
+
+#### (6) Final Visualization: Input image + Probability + Grad-CAMs
+* Prediction: Normal
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/da90916e-5c34-4f16-9397-81840e63f0d0" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/47bfafc8-0660-4673-969a-580d810a2b30" width="32%">
+</p>
+<br/>
+* Prediction: CNV
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e2dc62f4-7f76-4e69-8621-f39f97830f3b" width="32%">
+</p>
+<br/>
+* Prediction: Drusen
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bf592ac8-7721-4f5e-a652-18760a2d6bd3" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/c927a1aa-b870-45f9-992d-8a363caae133" width="32%">
+</p>
+<br/>
+* Prediction: DME
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/202407df-9240-4a6d-a17c-e3569e6dfd11 width="500" height="500"> <br/>
+* Failed to predict DME
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b width="500" height="500"> <br/><br/>
