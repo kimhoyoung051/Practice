@@ -58,7 +58,7 @@
 
 #### (5) Grad-CAM
 ##### 1) Grad-CAM by Layers
-* Prediction: CNV
+* Prediction: CNV <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/cd82184b-567d-47f8-8877-5f0f1f6593fe width="600" height="150"> <br/>
 ##### 2) Grad-CAM + Guided-Backpropagation + Guided Grad-CAM
 * Prediction: CNV
@@ -106,15 +106,15 @@
 
 #### (5) Grad-CAM
 ##### 1) Grad-CAM by Layers
-* Prediction: Normal
+* Prediction: Normal <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/76483001-5c9d-4b36-9c9d-b6b1eff3d3c9 width="600" height="150"> <br/>
-* Prediction: CNV
+* Prediction: CNV <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7cbe9243-98f1-4e5a-8c26-480544f52788 width="600" height="150"> <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/77c80ae2-a92f-4b3c-a131-ba4f67bafc61 width="600" height="150"> <br/>
-* Prediction: Drusen
+* Prediction: Drusen <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e4764c48-d56d-4187-aaad-00dca493f6dc width="600" height="150"> <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/9eca0f4d-2c19-437d-9991-8edc7528c0aa width="600" height="150"> <br/>
-* Prediction: DME
+* Prediction: DME <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/66150da8-fe31-430e-8eb8-1755306e339d width="600" height="150"> <br/>
 ##### 2) Grad-CAM + Guided-Backpropagation + Guided Grad-CAM
 * Prediction: Drusen
@@ -123,25 +123,25 @@
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/27bd439d-bf16-448a-8b17-ee92d92a631e width="800" height="200" <br/>
 
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
-* Prediction: Normal
+* Prediction: Normal <br/>
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/da90916e-5c34-4f16-9397-81840e63f0d0" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/47bfafc8-0660-4673-969a-580d810a2b30" width="32%">
 </p>
 <br/>
-* Prediction: CNV
+* Prediction: CNV <br/>
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e2dc62f4-7f76-4e69-8621-f39f97830f3b" width="32%">
 </p>
 <br/>
-* Prediction: Drusen
+* Prediction: Drusen <br/>
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bf592ac8-7721-4f5e-a652-18760a2d6bd3" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/c927a1aa-b870-45f9-992d-8a363caae133" width="32%">
 </p>
 <br/>
-* Prediction: DME
+* Prediction: DME <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/202407df-9240-4a6d-a17c-e3569e6dfd11 width="500" height="500"> <br/>
-* Failed to predict DME
+* Failed to predict DME <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b width="500" height="500"> <br/><br/>
