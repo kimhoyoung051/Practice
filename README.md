@@ -117,7 +117,7 @@
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/66150da8-fe31-430e-8eb8-1755306e339d width="600" height="150"> <br/>
 ##### 2) Grad-CAM + Guided-Backpropagation + Guided Grad-CAM
 * Prediction: Drusen <br/>
-<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e9b48f99-d0a4-4ea6-86d2-89443b58db8c width="800" height="200">
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e9b48f99-d0a4-4ea6-86d2-89443b58db8c width="800" height="200"> <br/>
 * Prediction: CNV <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/27bd439d-bf16-448a-8b17-ee92d92a631e width="800" height="200" <br/>
 
