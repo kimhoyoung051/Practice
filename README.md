@@ -46,6 +46,9 @@
 </p>
 <br/>
 
+* **Test Dataset Accuracy = 98.25%**
+<br/>
+
 #### (2) Sensitivity and Specificity
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/31648bcc-c91e-47d5-b5d6-cb261a725728 width="400" height="200"><br/>
 
@@ -91,6 +94,9 @@
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/d32e4f62-885d-498c-b438-5e41d2ffe422" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bb5cd4d1-8102-441d-97e5-72625db8fec7" width="32%">
 </p>
+<br/>
+
+* **Test Dataset Accuracy = 99.28%**
 <br/>
 
 #### (2) Sensitivity and Specificity
@@ -162,6 +168,9 @@
 </p>
 <br/>
 
+* **Test Dataset Accuracy = 97.73%**
+<br/>
+
 #### (2) Sensitivity and Specificity
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ba6defc3-3f39-4324-821d-a519cab05bfe width="400" height="200"><br/>
 
@@ -231,6 +240,9 @@
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/41dfd2f6-153a-49eb-a95f-a41890aa6193" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7ce14f52-59e6-4275-a87a-b17d1812ebee" width="32%">
 </p>
+<br/>
+
+* **Test Dataset Accuracy = 99.48%**
 <br/>
 
 #### (2) Sensitivity and Specificity
@@ -310,6 +322,9 @@
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/beda1ad0-a5c2-400b-a823-7ad449d345f8" width="32%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/b06d6200-1981-4d5d-bac7-430c5f492662" width="32%">
 </p>
+<br/>
+
+* **Test Dataset Accuracy = 97.83%**
 <br/>
 
 #### (2) Sensitivity and Specificity
