@@ -23,6 +23,6 @@
 ### 1. VGG16
 #### (1) Loss and Accuracy
 * **Loss**
- <p align="center">  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/a74c8785-4bb2-40a0-af4e-e82577740f1c" align="center" width="32%">  <img src="이미지경로" align="center" width="32%">  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/2e9d4368-bb26-4d47-b53a-7c2a9e65b732" align="center" width="32%">  <figcaption align="center">2개 이미지 띄우기</figcaption></p>
+ <p align="center">  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/a74c8785-4bb2-40a0-af4e-e82577740f1c" align="center" width="32%"> <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/2e9d4368-bb26-4d47-b53a-7c2a9e65b732" align="center" width="32%">  <figcaption align="center"></p>
 
 * **Accuracy**
