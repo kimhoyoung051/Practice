@@ -46,7 +46,7 @@
 <p align="left">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/8525e45c-170a-4a68-a8e6-2e4a9f68364b" width="15%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/411a0338-3dae-40a2-a258-c5affaac34f8" width="15%">
- <img src="(https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ffc2acb8-6c6c-4bce-b325-7deb67b5592e" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ffc2acb8-6c6c-4bce-b325-7deb67b5592e" width="15%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/17bc65ff-00e3-4287-b0af-ce9d77efec78" width="15%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/5f3775cf-0076-40ce-a9f0-365c3f0337a2" width="15%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/c035fd7a-fab2-4799-9f03-328d2ec13b7b" width="15%">
