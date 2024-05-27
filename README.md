@@ -3,12 +3,14 @@
 <br/>
 
 ## Table of Contents
-0. Data Description
-1. VGG16
-2. ResNet50
-3. DenseNet121
+- Data Description
+- CNN Classification
+  * 1. VGG16
+  * 2. ResNet50
+  * 3. DenseNet121
+<br/><br/>
 
-## 0. Data Description
+## Data Description
 * Data citation
   * Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
   * http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
@@ -196,7 +198,7 @@
 * Prediction: Drusen <br/>
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/af70a8c5-c2a6-4c0e-838a-19bbf4df78d1 width="800" height="200"> <br/>
 * Prediction: DME <br/>
-<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7b89b3c4-ceca-457f-9640-b1d2333358f9 width="800" height="200"> <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/24c15ce2-b8f0-4c17-b68e-698fc004882e width="800" height="200"> <br/>
 
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
 <p align="left">
