@@ -31,6 +31,7 @@
 
 ## CNN Classification
 ### VGG16
+  * Code: [https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/tree/main/vgg16](https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/tree/main/vgg16)
 #### (1) Loss and Accuracy
 * **Train and Valdiation Accuracy**
 <p align="left">
