@@ -2,7 +2,13 @@
 > Kaggle에 공개된 Retinal OCT image를 다양한 CNN architecture로 classification
 <br/>
 
-## Data Description
+## Table of Contents
+0. Data Description
+1. VGG16
+2. ResNet50
+3. DenseNet121
+
+## 0. Data Description
 * Data citation
   * Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2
   * http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
@@ -67,7 +73,7 @@
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1d3d4398-7cad-4d8f-8e4d-c4eefe0f2df3 width="800" height="400"> <br/><br/><br/>
 
-### 2. ResNet 50
+### 2. ResNet50
 #### (1) Loss and Accuracy
 * **Train and Valdiation Accuracy**
 <p align="left">
@@ -133,4 +139,75 @@
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/c927a1aa-b870-45f9-992d-8a363caae133" width="20%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/202407df-9240-4a6d-a17c-e3569e6dfd11" width="20%">
  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/283d26d2-a9aa-45d8-b875-b0bfb8b5479b" width="20%">
+</p> <br/><br/><br/><br/>
+
+
+### 3. DenseNet121
+#### (1) Loss and Accuracy
+* **Train and Valdiation Accuracy**
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/8c169e87-935d-4db7-90f4-4bd417bfcffb" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1f2883aa-9601-423a-b8ad-349a1f52c4b0" width="32%">
+</p>
+<br/>
+
+* **Train and Valdiation Loss**
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ed6570c9-1890-42f5-b30c-12e98a9b9e2e" width="32%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/8b9acc29-6d93-48c5-9cc9-0b57dbbc8f2a" width="32%">
+</p>
+<br/>
+
+#### (2) Sensitivity and Specificity
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ba6defc3-3f39-4324-821d-a519cab05bfe width="400" height="200"><br/>
+
+#### (3) ROC Curve
+##### 1) One vs. Rest multiclass
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/4638eeb8-7a08-40e7-9423-e1f7f441b7a5 width="300" height="300"><br/>
+##### 2) One vs. One
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/702bada9-98a2-4543-bcb6-4821c26bfe37" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/95ff21f5-3d1c-49c5-ac1b-43477625724a" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/d5601c12-6179-4dcf-90cc-105ed935de70" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/0c0abf06-da42-4093-80b6-190554e53076" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/3db9656a-52e3-45e6-836b-b68cddabb8de" width="15%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/90a4d09e-c184-4a4c-a46b-fcfc400edbb8" width="15%">
+</p>
+<br/>
+
+#### (4) Predictions
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/9fce3871-89e3-49c8-acf3-8413b15d1500 width="300" height="300"><br/>
+
+#### (5) Grad-CAM
+##### 1) Grad-CAM by Layers
+* Prediction: CNV <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/620179a2-52c2-4b3c-ba7c-d83c54644cfd width="600" height="150"> <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ae352457-0faa-4a78-9bb8-838df93e5c3f width="600" height="150"> <br/>
+* Prediction: Drusen <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/13e14ddd-cbc6-4063-8aa7-db5f7e91d7dd width="600" height="150"> <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/4e8b5798-7f0e-4e93-bd07-428d6cff086d width="600" height="150"> <br/>
+* Prediction: DME <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1a4861f4-7a46-40f1-9f92-45d484970703 width="600" height="150"> <br/>
+##### 2) Grad-CAM + Guided-Backpropagation + Guided Grad-CAM
+* Prediction: Normal <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/21aa106e-49d9-40f2-a8b9-a9b2419ed921 width="800" height="200"> <br/>
+* Prediction: CNV <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ca8c47b0-7fdb-4e91-b3af-b7181a396fa5 width="800" height="200"> <br/>
+* Prediction: Drusen <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/af70a8c5-c2a6-4c0e-838a-19bbf4df78d1 width="800" height="200"> <br/>
+* Prediction: DME <br/>
+<img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7b89b3c4-ceca-457f-9640-b1d2333358f9 width="800" height="200"> <br/>
+
+#### (6) Final Visualization: Input image + Probability + Grad-CAMs
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e6e9164c-29df-4d3c-a2a6-5e3039a9d03f" width="20%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/28730ac4-5f4a-4a9d-b785-670862809701" width="20%">
+  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/266e59b1-51c7-4cff-beb6-4fdf6a40499c" width="20%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/b533a605-04d6-43e7-bdb5-48e3e1a1fde3" width="20%">
+</p> <br/>
+<p align="left">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/6aced307-e172-447a-b0a8-0e25179064ec" width="20%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/adb40624-c422-49fc-88f2-6bedad838e18" width="20%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/bdca33f9-d840-4eca-943c-f8e6c82f6ad3" width="20%">
+ <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/ed09f386-450c-4512-bbdf-34fc44553c72" width="20%">
 </p> <br/><br/><br/><br/>
