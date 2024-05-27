@@ -3,11 +3,11 @@
 <br/>
 
 ## Table of Contents
-- Data Description
-- CNN Classification
-  * 1. VGG16
-  * 2. ResNet50
-  * 3. DenseNet121
+- **Data Description**
+- **CNN Classification**
+  * **1. VGG16**
+  * **2. ResNet50**
+  * **3. DenseNet121**
 <br/><br/>
 
 ## Data Description
