@@ -22,7 +22,8 @@
 ## CNN Classification
 ### 1. VGG16
 #### (1) Loss and Accuracy
-* **Loss**
- <p align="center">  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/a74c8785-4bb2-40a0-af4e-e82577740f1c" align="center" width="32%"> <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/2e9d4368-bb26-4d47-b53a-7c2a9e65b732" align="center" width="32%">  <figcaption align="center"></p>
+* **Train and Valdiation Accuracy**
+<p align="left">  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/a74c8785-4bb2-40a0-af4e-e82577740f1c" align="left" width="32%"> <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/2e9d4368-bb26-4d47-b53a-7c2a9e65b732" align="left" width="32%">  <figcaption align="left"></p>
 
-* **Accuracy**
+* **Train and Valdiation Loss**
+<p align="left">  <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/7dd75bdf-26bc-4bf2-a87e-fe585cc4c910" align="left" width="32%"> <img src="https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/e23d58d6-abcc-4346-8f39-b4f660649232" align="left" width="32%">  <figcaption align="left"></p>
