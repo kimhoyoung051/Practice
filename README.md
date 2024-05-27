@@ -5,9 +5,9 @@
 ## Table of Contents
 - **[Data Description](#Data-Description)**
 - **[CNN Classification](#CNN-Classification)**
-  * **[1. VGG16](#1.-VGG16)**
-  * **[2. ResNet50](#2.-ResNet50)**
-  * **[3. DenseNet121](#3.-DenseNet121)**
+  * **[VGG16](#VGG16)**
+  * **[ResNet50](#ResNet50)**
+  * **[DenseNet121](#DenseNet121)**
 <br/><br/>
 
 ## Data Description
@@ -28,7 +28,7 @@
 <br/><br/>
 
 ## CNN Classification
-### 1. VGG16
+### VGG16
 #### (1) Loss and Accuracy
 * **Train and Valdiation Accuracy**
 <p align="left">
@@ -75,7 +75,7 @@
 #### (6) Final Visualization: Input image + Probability + Grad-CAMs
 <img src=https://github.com/kimhoyoung051/kaggle-retinal-oct-classification/assets/164658426/1d3d4398-7cad-4d8f-8e4d-c4eefe0f2df3 width="800" height="400"> <br/><br/><br/>
 
-### 2. ResNet50
+### ResNet50
 #### (1) Loss and Accuracy
 * **Train and Valdiation Accuracy**
 <p align="left">
@@ -144,7 +144,7 @@
 </p> <br/><br/><br/><br/>
 
 
-### 3. DenseNet121
+### DenseNet121
 #### (1) Loss and Accuracy
 * **Train and Valdiation Accuracy**
 <p align="left">
